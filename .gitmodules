@@ -1,0 +1,3 @@
+[submodule "plugins/zsh-auto-nvm-use"]
+	path = plugins/zsh-auto-nvm-use
+	url = https://github.com/Sparragus/zsh-auto-nvm-use
