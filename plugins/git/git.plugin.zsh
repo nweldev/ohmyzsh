@@ -289,6 +289,15 @@ alias gru='git reset --'
 alias grup='git remote update'
 alias grv='git remote --verbose'
 
+# Custom aliases for fixup and autosquash
+alias gcx='git commit --verbose --fixup'
+alias gcax='git commit --verbose --all --fixup'
+alias grbdi='git rebase --interactive $(git_develop_branch)'
+alias grbdix='git rebase --interactive --autosquash $(git_develop_branch)'
+alias grbdinx='git rebase --interactive --no-autosquash $(git_develop_branch)'
+alias grbix='git rebase --interactive --autosquash'
+alias grbinx='git rebase --interactive --no-autosquash'
+
 alias gsb='git status --short --branch'
 alias gsd='git svn dcommit'
 alias gsh='git show'
