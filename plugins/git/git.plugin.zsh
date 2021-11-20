@@ -89,6 +89,7 @@ alias gbgD='git branch --no-color -vv | grep ": gone\]" | awk '"'"'{print $1}'"'
 alias gbl='git blame -b -w'
 alias gbnm='git branch --no-merged'
 alias gbr='git branch --remote'
+alias gbm='git branch -m' # rename the local branch but not the remote one (see grename)
 alias gbs='git bisect'
 alias gbsb='git bisect bad'
 alias gbsg='git bisect good'
